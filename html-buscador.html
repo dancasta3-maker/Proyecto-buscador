@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Buscador de Empleados</title>
+    <link rel="stylesheet" href="stylebuscador.css">
+</head>
+
+<body>
+    <header>
+        <img src="logoembera.svg" alt="Logo de embera" id="logo">
+        <h1>Buscador de Empleados</h1>
+        
+        
+
+
+    </header>
+    <main>
+        <section>
+            <h2> Buscar Empleado</h2>
+            
+            <label for="buscador">Nombre, apellido o ID:</label>
+
+            <input type="text" 
+            id="buscador" 
+            placeholder="Buscar">
+        </section>
+
+        <section>
+            <h2>Empleado:</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th> ID </th>
+                        <th> Nombres </th>
+                        <th> Apellidos</th>
+                        <th> Fecha de incorporacion</th>
+
+                    </tr>
+
+                </thead>
+                <tbody id="lista-empleados">
+                    <tr>
+                        <td>100100</td>
+                        <td>Juan</td>
+                        <td>Suarez</td>
+                        <td>20-05-2024</td>
+                    </tr>
+                    <tr>
+                        <td>100200</td>
+                        <td>Pedro</td>
+                        <td>Perez</td>
+                        <td>10-02-2022</td>
+                    </tr>
+                    <tr>
+                        <td>100300</td>
+                        <td>Rodrigo</td>
+                        <td>Velez</td>
+                        <td>08-10-2024</td>
+                    </tr>
+                    <tr>
+                        <td>100400</td>
+                        <td>Sofia</td>
+                        <td>Correa</td>
+                        <td>20-12-2022</td>
+                    </tr>
+                    <tr>
+                        <td>100500</td>
+                        <td>Felipe</td>
+                        <td>Alvarez</td>
+                        <td>15-01-2020</td>
+                    </tr>
+                </tbody>
+
+
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>Buscador de empleados - Proyecto de desarrollo </p>
+    </footer>
+
+<script src="buscador.js"> </script>
+</body>
+
+</html>
